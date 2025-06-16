@@ -1,0 +1,59 @@
+.apartment-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.apartment-container {
+ display: grid;
+ grid-template-columns: auto auto auto;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.apartment-card {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+.house-img{
+  width: 50px;
+}
+.apartment-card:hover {
+  background-color: #eaeaea;
+  transform: scale(1.05);
+}
+
+.apartment-card img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.apartment-info {
+  text-align: left;
+  margin-top: 0.5rem;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+@media (max-width: 884px) {
+  .apartment-container {
+ display: grid;
+ grid-template-columns: auto auto;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+}
+@media (max-width: 430px) {
+  .apartment-container {
+ display: grid;
+ grid-template-columns: auto;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+}

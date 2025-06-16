@@ -1,0 +1,41 @@
+.tower-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.tower-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+ #tower{
+    font-size: 37px;
+  }
+
+.tower-card {
+  width: 150px;
+  height: 100px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.tower-card:hover {
+  background-color: #ccc;
+  transform: scale(1.05);
+}
+/* Responsive Design */
+@media (max-width: 375px) {
+   #tower{
+    font-size: 30px;
+  }
+
+}

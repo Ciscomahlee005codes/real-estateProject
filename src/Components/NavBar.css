@@ -1,0 +1,127 @@
+*{
+    list-style: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+}
+header.sticky{
+    padding: 5px 100px;
+    background-color: #fff;
+    border-bottom: 1.5px solid black;
+      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+}
+.logo{
+ position: relative;
+ font-weight: 700;
+ color: #fff;
+ text-transform: capitalize;
+ letter-spacing: 2px;
+ text-decoration: none;
+ font-size: 2em;
+ transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    position: relative;
+    list-style: none;
+}
+.logins{
+    display: flex;
+    gap: 20px;
+}
+.logins li{
+    text-decoration: none;
+    background-color: #240577;
+    padding: 10px 15px;
+    color: #fff;
+}
+.logins li:hover{
+  background: #fff;
+  color: black;
+  border: 1.5px rgb(255, 255, 255) solid;
+  transition: 0.6s;
+}
+a{
+    text-decoration: none;
+}
+a.active{
+    color: navy;
+    
+}
+header ul li{
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky .logo{
+    color: black;
+}
+header.sticky .logins li a:hover{
+  background-color: transparent;
+  border: 1.5px black solid;
+  color: black;
+}
+header.sticky ul li{
+    color: black;
+}
+/* Header Section Ends */
+/* Responsive Design */
+@media (max-width: 430px) {
+    header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 10px;
+    z-index: 10000;
+}
+ul .nav-link{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+header.sticky{
+    padding: 5px 10px;
+    background-color: #fff;
+    border-bottom: 1.5px solid black;
+      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+      font-size: 15px;
+}
+}
+@media (max-width: 414px) {
+    .logo{
+ position: relative;
+ font-weight: 700;
+ color: #fff;
+ text-transform: capitalize;
+ letter-spacing: 2px;
+ text-decoration: none;
+ font-size: 1.5em;
+ transition: 0.6s;
+}
+.remove{
+    display: none;
+}
+}

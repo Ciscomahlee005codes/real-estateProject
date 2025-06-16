@@ -1,0 +1,22 @@
+.layout-details {
+  padding: 2rem;
+  text-align: center;
+}
+
+.layout-details img {
+  width: 300px;
+  height: 200px;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+}
+
+.metadata {
+  font-size: 1.1rem;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.8;
+  padding: 10px;
+  border: 1.5px gray solid;
+}

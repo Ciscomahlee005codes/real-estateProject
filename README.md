@@ -1,12 +1,60 @@
-# React + Vite
+# 🏢 Mini Real Estate Floor Selector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified real estate UI prototype built with React, based on the PropertyVisualizer.com frontend developer task.
 
-Currently, two official plugins are available:
+## 🔍 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application allows users to explore a fictional real estate setup by:
+- Selecting a tower (A, B, or C)
+- Choosing a floor within that tower
+- Viewing apartment layouts on the selected floor
+- Viewing detailed metadata and larger image for a selected layout
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Tower Overview**: Clickable cards for 3 towers
+- ✅ **Floor List**: 10–15 floors displayed per tower
+- ✅ **Apartment Layouts**: Each layout has a thumbnail, area, unit type, and room count
+- ✅ **Layout Detail View**: Displays full metadata and larger image
+- ✅ **Bonus Interaction**: Smooth hover animation that darkens background and scales up thumbnails
+- ✅ **Mobile Responsive**: Works seamlessly across devices
+
+## 🔧 Tech Stack
+
+- **React** (via Vite)
+- **React Router DOM** for page navigation
+- **CSS** for styling and animations
+- **Vercel** for live deployment
+
+
+## 📹 Video Walkthrough
+
+> [Loom Link in Google Drive] https://drive.google.com/file/d/1-0hoexNzZkNBwWGeWYGREXH2yvjteDaC/view?usp=drive_link
+
+Explains the project flow, tools used, and reasoning behind structure.
+
+## 🚀 Live Demo
+
+🔗 [https://real-estate-project-roan-zeta.vercel.app](https://real-estate-project-roan-zeta.vercel.app)
+
+## ⚠️ Limitations / Tradeoffs
+
+- Uses dummy data — no backend or real database
+- Placeholder images used in place of real floor plans
+- Focused primarily on UI/UX interactions per assignment instructions
+
+## ⏱️ Time Spent
+
+Roughly 3–4 hours total:
+- Planning structure: ~30 mins
+- Building components + routing: ~2 hours
+- Styling & animation: ~1 hour
+- Testing + deployment: ~30 mins
+
+## 📬 Contact
+
+Built with ❤️ by Chinemerem Anthony 
+GitHub: [https://github.com/Ciscomahlee005codes](https://github.com/Ciscomahlee005codes)
+Email: ciscomahlee@gmail.com
+
+
